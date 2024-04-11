@@ -1,5 +1,4 @@
 
-
 .todo-list-container {
     max-width: 400px;
     margin: 0 auto;
@@ -9,20 +8,17 @@
     background-color: rgb(58, 58, 58);
   }
   
-  /* Style for the heading */
   .todo-list-header {
     text-align: center;
     margin-bottom: 20px;
     color: white;
   }
   
-  /* Style for the form */
   .todo-list-form {
     display: flex;
     color: white
   }
   
-  /* Style for the input */
   .todo-list-input {
     flex: 1;
     padding: 10px;
@@ -31,8 +27,7 @@
     margin-right: 10px;
     
   }
-  
-  /* Style for the submit button */
+
   .todo-list-submit {
     padding: 10px 20px;
     background-color: #007bff;
@@ -41,8 +36,7 @@
     border-radius: 5px;
     cursor: pointer;
   }
-  
-  /* Style for the task list */
+
   .todo-list {
     list-style:square;
     padding: 0;
@@ -51,7 +45,6 @@
     
   }
   
-  /* Style for each task item */
   .todo-list-item {
     display: flex;
     align-items: center;
@@ -62,7 +55,6 @@
     background-color: rgb(19, 212, 32);
   }
   
-  /* Style for the delete button */
   .todo-list-delete {
     padding: 5px 10px;
     background-color: #dc3545;
